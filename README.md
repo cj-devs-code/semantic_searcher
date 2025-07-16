@@ -11,7 +11,8 @@ When you're dysregulated, skimming a whole book or even a chapter can feel overw
 ## ⚙️ Tech Stack
 
 - **Python** – backend logic + semantic chunking
-- **FAISS / Azure AI Search** – vector search,
+- **Azure AI Search** – vector search. rejected: Pinecone, FAISS, Vilvus
+- **Vector Embeddings** - voyage 3.5. chosen for: intent, emotional, concept rich embedding. rejected: openai (too literal), cohere (unemotional), MPnet MiniLM (poor purpose handling), Google USE (too generic for quote level lookup)
 - **Gradio** – frontend interface. Options rejected: streamlit, dash, next.js, react.
 - **GitHub Actions** – CI pipeline
 - **pytest** – test framework
