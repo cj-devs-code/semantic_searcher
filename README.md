@@ -20,11 +20,11 @@ When you're dysregulated, skimming a whole book or even a chapter can feel overw
 
 ## 📂 Project Structure
 
-frontend/ # user interface (streamlit or react)
-backend/ # API + semantic search logic
-data/ # sample books and chunked quote data
-notebooks/ # R&D, experiments, visualizations
-scripts/ # setup scripts, evaluators
+frontend/    # User interface (Streamlit or React)
+backend/     # API + semantic search logic
+data/        # Sample books and chunked quote data
+notebooks/   # R&D, experiments, visualizations
+scripts/     # Setup scripts, evaluators
 
 
 ---
