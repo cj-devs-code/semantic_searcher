@@ -20,12 +20,13 @@ When you're dysregulated, skimming a whole book or even a chapter can feel overw
 
 ## 📂 Project Structure
 
+```
 frontend/    # User interface (Streamlit or React)
 backend/     # API + semantic search logic
 data/        # Sample books and chunked quote data
 notebooks/   # R&D, experiments, visualizations
 scripts/     # Setup scripts, evaluators
-
+```
 
 ---
 
