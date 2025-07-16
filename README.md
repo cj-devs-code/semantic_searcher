@@ -11,8 +11,8 @@ When you're dysregulated, skimming a whole book or even a chapter can feel overw
 ## ⚙️ Tech Stack
 
 - **Python** – backend logic + semantic chunking
-- **FAISS / Azure AI Search** – vector search
-- **Streamlit / React (TBD)** – frontend interface
+- **FAISS / Azure AI Search** – vector search,
+- **Gradio** – frontend interface. Options rejected: streamlit, dash, next.js, react.
 - **GitHub Actions** – CI pipeline
 - **pytest** – test framework
 
