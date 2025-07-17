@@ -46,3 +46,18 @@ scripts/     # Setup scripts, evaluators
 ```bash
 pip install -r requirements.txt
 pytest
+
+---
+
+## 🔐 Environment Variables
+
+Before running the app, create a `.env` file in the project root and define the following:
+
+| Variable           | Description                          |
+|--------------------|--------------------------------------|
+| `VOYAGE_API_KEY`   | API key from [Voyage AI](https://voyageai.com) |
+| `AAIS_ENDPOINT`    | Azure AI Search endpoint URL         |
+| `AAIS_KEY`         | Azure AI Search admin key            |
+| `RUN_DOCKER_TEST`  | make this true to run docker tests   |
+
+You can use the provided `.env.example` file as a template:
