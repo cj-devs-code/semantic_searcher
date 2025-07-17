@@ -25,5 +25,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run tests
+      env:
+        RUN_DOCKER_TEST: ${{ secrets.RUN_DOCKER_TEST || 'false' }}
       run: |
         pytest
